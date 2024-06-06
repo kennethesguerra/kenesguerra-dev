@@ -10,7 +10,7 @@ export default function Intro() {
         <ReactTyped 
           className="intro-title"
           strings={[
-            "<span>Hello, you! It's me <span class='intro-name'>Ken</span></span>"
+            "<span>Hello, you! It's me, <span class='intro-name'>Ken</span></span>"
           ]}
           typeSpeed={40}
         />
