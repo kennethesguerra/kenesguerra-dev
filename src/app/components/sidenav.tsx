@@ -29,7 +29,9 @@ const SideNav = ({ navs, navBrand, contactNav } : {navs: any, navBrand: ReactEle
           {
             Object.keys(navs).map((nav, i) => {
               return (
-                <a href={ navs[nav]['path'] } key={i}> { nav } </a>
+                <a href={ navs[nav]['path'] } key={i} onClick={() => {
+                  setShowMenu(false);
+                }}> { nav } </a>
               )
             })
           }

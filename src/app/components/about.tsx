@@ -16,9 +16,9 @@ export default function About() {
       </div>
       <div className="about-content">
         <div className="about-desc">
-          I have begun my career as Analyst Programmer in a gaming industry last 2013. Currently, 
-          I am working as Software Engineer in <span className="asurion"><a href="">Asurion</a></span> under a large team 
-          that develops and maintains the platform for the claim filing called Horizon - the bread and butter 
+          In 2013, I started my career as Analyst Programmer in a gaming industry. And on this day, 
+          I'm a full-time Software Engineer working for <span className="asurion"><a href="">Asurion</a></span> with a globe wide team of
+          developers whom maintains the platform for the claim filing also known as "Horizon" - the bread and butter 
           of the company.
           <ul className="tech_stack">
             {
