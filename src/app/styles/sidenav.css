@@ -1,0 +1,46 @@
+.side-menu-container {
+  display: none;
+  background-color: black !important;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  z-index: 9999;
+  height: 100%;
+  opacity: 0.9;
+}
+
+.side-menu > a {
+  display: block;
+  width: 100%;
+  color: var(--platinum);
+  font-weight: 600;
+  text-decoration: none;
+  text-align: center;
+  font-size: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.close-btn {
+  margin-top: 30px;
+  margin-right: 20px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: row-reverse;
+  cursor: pointer;
+}
+
+.show-menu {
+  display: block !important;
+}
+
+.side-nav-contacts {
+  display: flex;
+  width: 100%;
+  margin-top: 120px;
+  flex-direction: row;
+  justify-content: space-around;
+}

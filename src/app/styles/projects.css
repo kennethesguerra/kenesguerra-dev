@@ -1,0 +1,50 @@
+#projects {
+  margin: auto;
+  max-width: 1000px;
+  min-height: 80vh;
+  color: inherit;
+  text-align: center;
+  padding-top: 105px;
+}
+
+.project-container {
+  text-align: justify;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.project-title {
+  font-size: 25px;
+  color: var(--platinum);
+}
+
+.project-desc {
+  margin-top: 10px;
+  opacity: 0.9;
+}
+
+.project-github {
+  text-align: right;
+}
+
+.project-github > a {
+  color: var(--platinum);
+}
+
+@media only screen and (max-width: 600px) {
+
+  #projects {
+    margin: auto;
+    max-width: 1000px;
+    min-height: 80vh;
+    color: inherit;
+    text-align: center;
+    padding-top: 65px;
+  }
+
+  .project-container {
+    text-align: justify;
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+}
