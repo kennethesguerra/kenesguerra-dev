@@ -20,6 +20,9 @@ export default function About() {
           I'm a full-time Software Engineer working for <span className="asurion"><a href="">Asurion</a></span> with a globe wide team of
           developers whom maintains the platform for the claim filing also known as "Horizon" - the bread and butter 
           of the company.
+          <p className="mt-3">
+            I have been working with the following tech skills: 
+          </p>
           <ul className="tech_stack">
             {
               techStack.map(tech => {
@@ -33,12 +36,14 @@ export default function About() {
           and building my ideas from it. There are weekends that you will find me trekking on some mountains 
           in the Philippines.
         </div>
-        <div className="about-img">
-          <Image 
-            src="/ken_photo.jpg"
-            width={300} 
-            height={300} 
-            alt="Picture of Mark Kenneth Esguerra - Software Engineer" />
+        <div className="about-img-container">
+          <div className="about-img">
+            <Image 
+              src="/ken_photo.jpg"
+              width={300} 
+              height={300} 
+              alt="Picture of Mark Kenneth Esguerra - Software Engineer" />
+          </div>
         </div>
       </div>
     </div>

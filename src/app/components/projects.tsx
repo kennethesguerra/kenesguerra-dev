@@ -12,7 +12,7 @@ export default function Projects() {
   }
 
   const projectList: { [key: string]: Project } = {
-    "kenesguerra-dev": {
+    "kenesguerra.dev": {
       description: "Personal portfolio site which showcases about me, my experience and pet projects as a Software Engineer.", 
       technologyUsed: ['Next.js', 'React Bootstrap'],
       githubLink: 'https://github.com/kennethesguerra/kenesguerra-dev'

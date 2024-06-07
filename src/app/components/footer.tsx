@@ -21,6 +21,13 @@ export default function Footer() {
           <small className="copyright">&copy; { today.getFullYear() + ". "} All rights reserved.</small>
         </Col>
       </Row>
+      <Row className="mt-3">
+        <Col>
+          <small id="attributions">
+            <a href="https://www.flaticon.com/free-icons/lion" title="lion icons">Lion icons created by Delwar018 - Flaticon</a>
+          </small>
+        </Col>
+      </Row>
     </div>
   )
 }       

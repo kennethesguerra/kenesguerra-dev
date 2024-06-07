@@ -56,14 +56,32 @@
     text-align: center;
   }
 
+  .about-content {
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: justify;
+    margin-bottom: 20px;
+    margin-top: 10px; 
+    justify-content: center;
+  }
+
   .about-desc {
     width: 360px;
     margin-right: 100px;
     padding-right: 20px;
   }
 
+  .about-img-container {
+    margin: 0 auto;
+    padding-bottom: 25px;
+  }
+
   .about-img > img {
-    display: none;
+    border-radius: 50%;
+    box-shadow: 6px 13px 23px -5px rgba(0, 0, 0, 0.46);
+    border: none;
+    width: 100px;
+    height: 100px;
   }
 
   .tech_stack {
