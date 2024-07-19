@@ -23,10 +23,6 @@
   opacity: 0.9;
 }
 
-.project-github {
-  text-align: right;
-}
-
 .project-github > a {
   color: var(--platinum);
 }

@@ -51,13 +51,11 @@ export default function NavBar() {
             {
               Object.keys(navLinks).map((nav, i) => {
                 return (
-                  <Nav.Link href={ navLinks[nav]['path'] }> { nav } </Nav.Link>
+                  <Nav.Link href={ navLinks[nav]['path']} key={i}> { nav } </Nav.Link>
                 )
               })
             }
-          </Nav>
-          <Nav className="ml-auto">
-            { contactNav }
+            <Nav.Link href="Ken_Esguerra_Resume.pdf" target="_blank"> Resume </Nav.Link>
           </Nav>
         </Container>
         <SideNav navs={navLinks} navBrand={navBrand} contactNav={contactNav} />
