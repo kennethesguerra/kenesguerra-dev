@@ -7,7 +7,8 @@ export default function About() {
     'React',
     'Node.js',
     'PHP', 
-    'MySQL'
+    'MySQL',
+    'AI'
   ]
   return (
     <div id="about">

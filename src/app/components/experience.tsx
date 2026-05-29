@@ -17,11 +17,13 @@ export default function Experience() {
       jobTitle: "Software Engineer",
       companyIntro: "Asurion is a leading provider of device insurance, warranty & support services for cell phones, consumer electronics & home appliances",
       description: [
-        "Launch new clients and new features for existing clients across the US and Latin America to the claim-filing platform called Horizon. Some of our big clients are AT&T and Verizon.",
-        "Actively helping on solving prod-related issues and processing stuck claims due to technical issues.",
-        "Prior to working with US and LatAm clients, I started as a Site Reliability Engineer for Horizon APAC. We specialized in application support and developed the Datazap Portal, designed to automate data changes required to efficiently resolve production issues."
+        "Launched new clients and features for existing clients across the US and Latin America on the Horizon claim-filing platform, including major clients such as AT&T and Verizon. Also contributed to system redesign initiatives by implementing new claim programs and enhancing existing workflows, which involved modifying and improving core application code.",
+        "Managed system communications to ensure customers receive accurate and timely notifications regarding the status of their claims.",
+        "Translated and maintained agent-facing system labels and support scripts from English into Portuguese and Spanish to support multilingual operations and improve usability within the agent portal.",
+        "Actively resolving production-related issues and processing stuck claims due to technical issues, ensuring customers can continue and complete their claims without unnecessary delays.",
+        "Prior to working with US and Latin America clients, I started as a Site Reliability Engineer for Horizon APAC. We specialized in application support and developed the Datazap Portal, designed to automate data changes required to efficiently resolve production issues."
       ],
-      technologyUsed: ['React', 'GraphQL', 'Node.js', 'AWS Lambda', 'Oracle']
+      technologyUsed: ['React', 'GraphQL', 'Node.js', 'Cursor', 'AI', 'AWS Lambda', 'Oracle']
     },
     "HCX Technology Partners Inc": {
       duration: "January 2020 - August 2021", 
