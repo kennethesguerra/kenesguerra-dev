@@ -15,9 +15,9 @@ export default function Intro() {
           typeSpeed={40}
         />
         <div className="intro-desc">
-          A Manila-based Software Engineer who primarily works on the web. 
-          I specialize on building web applications using React and Node.js. I'm currently 
-          working at <span className="asurion"><a href="https://asurion.com" target="_blank">Asurion</a></span>.
+        A Manila-based Software Engineer passionate about building scalable software and exploring the potential of AI. 
+        I specialize in creating reliable, user-focused applications with React, Node.js, and modern cloud technologies, 
+        and I'm currently working at <span className="asurion"><a href="https://asurion.com" target="_blank">Asurion</a></span>.
         </div>
         <div className="mt-10">
           <a href="mailto:esguerrakenneth@gmail.com" className="btn-mailto">
