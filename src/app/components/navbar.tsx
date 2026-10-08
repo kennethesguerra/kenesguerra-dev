@@ -1,6 +1,5 @@
 'use client';
 
-import { useState } from "react";
 import { Container, Navbar, Nav } from "react-bootstrap";
 import { GitHub, LinkedIn, Email, Instagram } from "@mui/icons-material";
 
@@ -11,9 +10,8 @@ import '../styles/navbar.css';
 export default function NavBar() {
   interface NavLink {
     path: string
+    external?: boolean
   }
-
-  const [openMenu, setOpenMenu] = useState(false);
 
   const navLinks: { [key: string]: NavLink } = {
     "About": {
@@ -24,6 +22,10 @@ export default function NavBar() {
     }, 
     "Projects": {
       path: "#projects"
+    },
+    "Resume": {
+      path: "http://docs.google.com/document/d/1OPwQM0j3OV-DP_muPd6PBxTRdHboVkJE/edit",
+      external: true
     }
   }
 
@@ -44,18 +46,24 @@ export default function NavBar() {
     </>
   return (
     <>
-      <Navbar fixed="top" className="bg-body-tertiary">
+      <Navbar fixed="top" expand="lg" className="site-navbar">
         <Container id="nav-container">
           { navBrand }
-          <Nav className="me-auto">
+          <Nav className="ms-auto align-items-center">
             {
               Object.keys(navLinks).map((nav, i) => {
                 return (
-                  <Nav.Link href={ navLinks[nav]['path']} key={i}> { nav } </Nav.Link>
+                  <Nav.Link
+                    href={ navLinks[nav]['path']}
+                    key={i}
+                    target={ navLinks[nav].external ? "_blank" : undefined }
+                    rel={ navLinks[nav].external ? "noopener noreferrer" : undefined }
+                  > { nav } </Nav.Link>
                 )
               })
             }
-            <Nav.Link href="Ken_Esguerra_Resume.pdf" target="_blank"> Resume </Nav.Link>
+            <span className="nav-divider" aria-hidden="true">|</span>
+            <div className="nav-contacts">{ contactNav }</div>
           </Nav>
         </Container>
         <SideNav navs={navLinks} navBrand={navBrand} contactNav={contactNav} />
