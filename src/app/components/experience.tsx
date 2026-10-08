@@ -17,11 +17,10 @@ export default function Experience() {
       jobTitle: "Software Engineer",
       companyIntro: "Asurion is a leading provider of device insurance, warranty & support services for cell phones, consumer electronics & home appliances",
       description: [
-        "Launched new clients and features for existing clients across the US and Latin America on the Horizon claim-filing platform, including major clients such as AT&T and Verizon. Also contributed to system redesign initiatives by implementing new claim programs and enhancing existing workflows, which involved modifying and improving core application code.",
-        "Managed system communications to ensure customers receive accurate and timely notifications regarding the status of their claims.",
-        "Translated and maintained agent-facing system labels and support scripts from English into Portuguese and Spanish to support multilingual operations and improve usability within the agent portal.",
-        "Actively resolving production-related issues and processing stuck claims due to technical issues, ensuring customers can continue and complete their claims without unnecessary delays.",
-        "Prior to working with US and Latin America clients, I started as a Site Reliability Engineer for Horizon APAC. We specialized in application support and developed the Datazap Portal, designed to automate data changes required to efficiently resolve production issues."
+        "Developed and launched 15+ major production features for the Agent channel claim-filing application so far, including Product Redesigns, new feature development, translations, and client launches for telecommunications clients across the US and Latin America, supporting approximately ~550K claim calls per month.",
+        "Translated 3,000+ labels and say scripts in Agent Channel to Spanish, improving the agent experience for Latin American users.",
+        "Resolving 4–6 production incidents per month, restoring claim-processing workflows and minimizing downtime for customer-facing systems.",
+        "Developed an internal support portal for the APAC region that automated operational data changes, reducing manual intervention and accelerating production issue resolution for support teams."
       ],
       technologyUsed: ['React', 'GraphQL', 'Node.js', 'Cursor', 'AI', 'AWS Lambda', 'Oracle']
     },
@@ -30,8 +29,9 @@ export default function Experience() {
       jobTitle: "Customer Applications Engineer",
       companyIntro: "HCX offers innovative solutions and services that enable organizations’ HR and other Core units to leverage on leading edge platforms, systems and tools to improve productivity, enhance user experience and reduce costs.",
       description: [
-        "Led the frontend development for two major projects: ADA (Ayala Data Analytics) for Ayala Corporation and T3 (Time Tracking Tool) for HCX.",
-        "Enhanced and maintained the ARC (Ayala Rewards Circle) API for the ARC Mobile Application, which manages rewards for Zing, Globe, and BPI."
+        "Contributed to ₱6.9M in revenue by delivering work across a diverse set of revenue-generating and core business projects.",
+        "Led frontend development for Ayala Data Analytics (ADA) and Time Tracking Tool (T3), translating business requirements into reliable, user-focused React applications.",
+        "Enhanced and maintained the ARC (Ayala Rewards Circle) API (Node.js, PHP, Laravel) supporting Zing, Globe, and BPI rewards experiences"
       ],
       technologyUsed: ['React', 'Node.js', 'PHP', 'Laravel', 'Heroku', 'MySQL', 'PostgreSQL', 'Docker']
     },
@@ -40,9 +40,9 @@ export default function Experience() {
       jobTitle: "Software Engineer", 
       companyIntro: "Deltek is the leading global provider of software and solutions for projectbased businesses.",
       description: [
-        "Developed and maintained the Deltek Talent Management (formerly HRSmart) product using PHP, MySQL, jQuery and Smarty. DTM is a solution that helps an organization to handle human resourcing from start to finish.",
-        "As one of the pioneering team members, I contributed to the development of the CoreHR module within DTM, streamlining the management of employee information with features such as Effective Dating and Employee/Manager Self-Service functionality.",
-        "Maintained Legacy versions of DTM for clients until its sunset in 2018."
+        "Developed and maintained the Deltek Talent Management (DTM) system, supporting organizations in streamlining talent management processes for employees and HR teams.",
+        "Contributed to the CoreHR module used by 100+ clients, including Effective Dating that automated employee status changes based on predefined dates and reduced manual HR updates.",
+        "Maintained legacy platform versions through the 2018 sunset, ensuring stability for clients transitioning to newer releases."
       ],
       technologyUsed: ['PHP', 'MySQL', 'AWS Aurora', 'Smarty', 'jQuery']
     },
@@ -51,8 +51,8 @@ export default function Experience() {
       jobTitle: "Developer", 
       companyIntro: "PhilWeb is the leading gaming technology provider in the Philippines. They are listed on the Philippine Stock Exchange (PSE:WEB)",
       description: [
-        "Developed and maintained essential tools for casino operations, including a proprietary POS system, Rewards Management, Membership platform, and more.",
-        "Developed APIs for Genesis Terminal Machines in collaboration with the R&D Team to facilitate communication between the machines and the POS System.",
+        "Built and maintained POS systems supporting operations across 150+ eGames cafes serving 40,000 customers a day.",
+        "Built and maintained Rewards Management and Membership platforms that delivered personalized loyalty and membership experiences.",
         "Developed a lightweight framework to automate unit testing utilizing Watir or Web Application Testing in Ruby."
       ],
       technologyUsed: ['PHP', 'Yii', 'MySQL', 'jQuery', 'Ruby']

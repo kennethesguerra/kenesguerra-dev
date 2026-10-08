@@ -14,9 +14,15 @@ export default function Projects() {
   }
 
   const projectList: { [key: string]: Project } = {
+    "CSIB Restaurant POS": {
+      description: "Point-of-sale system for restaurant ordering, billing, and discount handling. Built as a two-package monorepo: a Next.js frontend and an Express/MySQL API. Used by College of St. Ignatius Bulacan for their skill assessment.",
+      technologyUsed: ['Next.js', 'Node.js', 'Vercel', 'Render', 'Aiven'],
+      githubLink: null,
+      imagePath: '/csibpos.png'
+    },
     "Ayala Data Analytics": {
       description: "A platform for data repository and data sharing used by Data Scientists within Ayala Corporation and its subsidiaries. My role was to build the frontend.",
-      technologyUsed: ['React.js', 'React Bootstrap', 'AWS S3'],
+      technologyUsed: ['React.js', 'Laravel', 'AWS'],
       githubLink: null,
       imagePath: '/ada.png'
     },

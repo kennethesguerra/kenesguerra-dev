@@ -26,9 +26,9 @@ export default function About() {
           </p>
           <ul className="tech_stack">
             {
-              techStack.map(tech => {
+              techStack.map((tech, i) => {
                 return (
-                  <li>{ tech }</li>
+                  <li key={i}>{ tech }</li>
                 )
               })
             }

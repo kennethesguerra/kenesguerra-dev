@@ -1,52 +1,80 @@
-.navbar {
+.site-navbar {
   color: var(--platinum) !important;
-  background-color: var(--gunmetal-gray) !important;
-  font-weight: bold;
+  background-color: transparent !important;
+  background-image: none !important;
+  box-shadow: none !important;
+  border: 0;
+  font-family: var(--font-space), "Segoe UI", system-ui, sans-serif;
+  font-weight: 500;
   font-size: 14px !important;
+  letter-spacing: 0.04em;
 }
 
-.navbar-light .navbar-brand  {
+.site-navbar .navbar-brand,
+.site-navbar .navbar-brand .nav-link,
+.site-navbar .navbar-nav .nav-link {
   color: var(--platinum) !important;
 }
 
-.navbar-light .navbar-nav .nav-link {
-  color: var(--platinum) !important;
-}
-
-.navbar-light .navbar-nav .nav-link:hover {
+.site-navbar .navbar-brand .nav-link:hover,
+.site-navbar .navbar-nav .nav-link:hover {
   color: var(--green-bright) !important;
 }
 
 #nav-container {
   display: flex;
+  align-items: center;
+}
+
+#nav-container .navbar-nav {
+  margin-left: auto;
+}
+
+.nav-divider {
+  color: var(--platinum);
+  opacity: 0.45;
+  margin: 0 10px;
+  line-height: 1;
+}
+
+.nav-contacts {
+  display: flex;
+  align-items: center;
+}
+
+.nav-contacts .nav-link {
+  display: flex;
+  align-items: center;
+  padding: 0 6px;
+}
+
+.nav-contacts svg {
+  font-size: 20px !important;
 }
 
 #nav-container-mobile {
   display: none;
 }
 
-@media only screen and (max-width: 600px) {
-  .navbar {
-    color: var(--platinum) !important;
-    background-color: var(--gunmetal-gray) !important;
-    font-weight: bold;
-    font-size: 10px !important;
-  }
-
+@media only screen and (max-width: 991.98px) {
   #nav-container {
-    display: none;
+    display: none !important;
   }
 
   #nav-container-mobile {
-    display: flex;
-  }
-
-  .navbar-brand {
-    flex-grow: 6;
+    display: flex !important;
+    align-items: center;
+    width: 100%;
   }
 
   #menu-icon {
-    flex-grow: 6;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
     cursor: pointer;
+    color: var(--platinum);
+    background: transparent;
+    border: 0;
+    padding: 0;
   }
 }

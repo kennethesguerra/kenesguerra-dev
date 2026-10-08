@@ -8,13 +8,6 @@ import Experience from "./components/experience";
 import Projects from "./components/projects";
 import Footer from "./components/footer";
 
-import { Montserrat } from 'next/font/google'
-
-const montserrat = Montserrat({
-  weight: '400',
-  subsets: ['latin'],
-})
-
 export default function Home() {
     
   useEffect(() => {
@@ -22,7 +15,7 @@ export default function Home() {
   }, []);
 
   return (
-    <main className={'main ' + montserrat.className}>
+    <main className="main">
       <NavBar />
       <Intro />
       <About />
